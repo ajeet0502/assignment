@@ -1,0 +1,17 @@
+Please follow the steps.
+
+cd soccer-team
+composer install
+php artisan key:generate
+update the .env file along with database connection
+php artisan migrate
+php artisan db:seed
+npm install
+php artisan serve
+
+Compile assets: npm run watch
+
+User credentials
+
+email - admin@admin.com 
+password - password
